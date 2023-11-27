@@ -1,0 +1,262 @@
+[
+    {
+        "id": "0",
+        "name": "Beauty Cosmetics Website",
+        "tagline": "E-commerce website",
+        "dates": "Nov 2023",
+        "type": "Website/Web app",
+        "techStack": [
+            {
+                "name": "React",
+                "icon": "react"
+            },
+            {
+                "name": "Next JS",
+                "icon": "nextjs"
+            },
+            {
+                "name": "TypeScript",
+                "icon": "typescript"
+            },
+            {
+                "name": "Tailwind CSS",
+                "icon": "tailwind"
+            },
+            {
+                "name": "Radix-UI"
+            }
+        ],
+        "description": "Developed a new onboarding experience to drive comprehension and improve engagement rates for new users – delivering on a company level initiative of increasing payment ready credentials in Hub (Orders and Payments) across Instagram, Messenger and Facebook.",
+        "image": "",
+        "backgroundColor": "",
+        "textColor": "#FFFFFF",
+        "isMobileProject": false
+    },
+    {
+        "id": "1",
+        "name": "Firebase exporter",
+        "tagline": "Export firebase data to json or csv format",
+        "dates": "Nov 2023 - Present",
+        "type": "Website/Web app",
+        "techStack": [
+            {
+                "name": "React",
+                "icon": "react"
+            },
+            {
+                "name": "TypeScript",
+                "icon": "typescript"
+            },
+            {
+                "name": "Node JS",
+                "icon": "nodejs"
+            },
+            {
+                "name": "Express"
+            },
+            {
+                "name": "Firebase",
+                "icon": "firebase"
+            },
+            {
+                "name": "Sass",
+                "icon": "sass"
+            }
+        ],
+        "description": "Designed a new onboarding experience to drive comprehension and improve engagement rates for new users – delivering on a company level initiative of increasing payment ready credentials in Hub (Orders and Payments) across Instagram, Messenger and Facebook.",
+        "image": "/alpha_bank.png",
+        "backgroundColor": "rgb(185 28 28)",
+        "textColor": "#FFFFFF",
+        "isMobileProject": false
+    },
+    {
+        "id": "2",
+        "name": "Africar API",
+        "tagline": "REST API for car rental platform",
+        "dates": "May 2023",
+        "type": "Backend project",
+        "techStack": [
+            {
+                "name": "TypeScript",
+                "icon": "typescript"
+            },
+            {
+                "name": "Node JS",
+                "icon": "nodejs"
+            },
+            {
+                "name": "Express JS"
+            }
+        ],
+        "description": "Designed a new onboarding experience to drive comprehension and improve engagement rates for new users – delivering on a company level initiative of increasing payment ready credentials in Hub (Orders and Payments) across Instagram, Messenger and Facebook.",
+        "image": "/africar_api.png",
+        "backgroundColor": "rgb(22, 30 ,35)",
+        "textColor": "#FFFFFF",
+        "isMobileProject": false
+    },
+    {
+        "id": "3",
+        "name": "Glico Stores",
+        "dates": "Jul 2023 - Aug 2023",
+        "type": "Android app",
+        "techStack": [
+            {
+                "name": "Flutter",
+                "icon": "flutter"
+            },
+            {
+                "name": "Dart"
+            },
+            {
+                "name": "Firebase",
+                "icon": "firebase"
+            },
+            {
+                "name": "Google Maps API"
+            },
+            {
+                "name": "Provider"
+            }
+        ],
+        "description": "Designed a new onboarding experience to drive comprehension and improve engagement rates for new users – delivering on a company level initiative of increasing payment ready credentials in Hub (Orders and Payments) across Instagram, Messenger and Facebook.",
+        "image": "/glico_stores_android.png",
+        "backgroundColor": "#524C48",
+        "textColor": "#FFFFFF",
+        "isMobileProject": true
+    },
+    {
+        "id": "4",
+        "name": "Africar",
+        "tagline": "Car rental platform",
+        "dates": "Nov 2023 - Feb 2024",
+        "type": "Website/Web app",
+        "techStack": [
+            {
+                "name": "Next JS",
+                "icon": "nextjs"
+            },
+            {
+                "name": "React",
+                "icon": "react"
+            },
+            {
+                "name": "TypeScript",
+                "icon": "typescript"
+            },
+            {
+                "name": "Tailwind CSS",
+                "icon": "tailwind"
+            },
+            {
+                "name": "MySQL",
+                "icon": "mysql"
+            },
+            {
+                "name": "Redux",
+                "icon": "redux"
+            },
+            {
+                "name": "Jest",
+                "icon": "jest"
+            },
+            {
+                "name": "Radix-UI"
+            }
+        ],
+        "description": "Designed a new onboarding experience to drive comprehension and improve engagement rates for new users – delivering on a company level initiative of increasing payment ready credentials in Hub (Orders and Payments) across Instagram, Messenger and Facebook.",
+        "image": "/turo.png",
+        "backgroundColor": "#5A46F7",
+        "textColor": "#FFFFFF",
+        "isMobileProject": false
+    },
+    {
+        "id": "5",
+        "name": "Blazon",
+        "tagline": "Movie streaming mobile app",
+        "dates": "Aug 2020",
+        "type": "iOS app",
+        "techStack": [
+            {
+                "name": "Flutter",
+                "icon": "flutter"
+            },
+            {
+                "name": "Dart"
+            },
+            {
+                "name": "Firebase",
+                "icon": "firebase"
+            },
+            {
+                "name": "TMDB API"
+            },
+            {
+                "name": "Provider"
+            }
+        ],
+        "description": "Designed a new onboarding experience to drive comprehension and improve engagement rates for new users – delivering on a company level initiative of increasing payment ready credentials in Hub (Orders and Payments) across Instagram, Messenger and Facebook.",
+        "image": "/blazon_ios.png",
+        "backgroundColor": "rgb(2, 53, 180)",
+        "textColor": "#FFFFFF",
+        "isMobileProject": true
+    },
+    {
+        "id": "6",
+        "name": "Bookiema",
+        "tagline": "Book stays in Ghana",
+        "dates": "Feb 2022 - Jun 2022",
+        "type": "Android app",
+        "techStack": [
+            {
+                "name": "Flutter",
+                "icon": "flutter"
+            },
+            {
+                "name": "Dart"
+            },
+            {
+                "name": "Firebase",
+                "icon": "firebase"
+            },
+            {
+                "name": "Google Maps API"
+            },
+            {
+                "name": "Provider"
+            }
+        ],
+        "description": "Designed a new onboarding experience to drive comprehension and improve engagement rates for new users – delivering on a company level initiative of increasing payment ready credentials in Hub (Orders and Payments) across Instagram, Messenger and Facebook.",
+        "image": "/bookiema_mobile.png",
+        "backgroundColor": "#0F1A7C",
+        "textColor": "#FFFFFF",
+        "isMobileProject": true
+    },
+    {
+        "id": "7",
+        "name": "Access Bank Form",
+        "tagline": "Log event attendees",
+        "dates": "Jul 2023",
+        "type": "Android app",
+        "techStack": [
+            {
+                "name": "Flutter",
+                "icon": "flutter"
+            },
+            {
+                "name": "Dart"
+            },
+            {
+                "name": "Firebase",
+                "icon": "firebase"
+            },
+            {
+                "name": "Provider"
+            }
+        ],
+        "description": "Designed a new onboarding experience to drive comprehension and improve engagement rates for new users – delivering on a company level initiative of increasing payment ready credentials in Hub (Orders and Payments) across Instagram, Messenger and Facebook.",
+        "image": "/bookiema_mobile.png",
+        "backgroundColor": "#0F1A7C",
+        "textColor": "#FFFFFF",
+        "isMobileProject": true
+    }
+]

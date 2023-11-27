@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Selawik';
+    src: url('Selawik-Bold.eot');
+    src: local('Selawik Bold'), local('Selawik-Bold'),
+        url('Selawik-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Selawik-Bold.woff2') format('woff2'),
+        url('Selawik-Bold.woff') format('woff'),
+        url('Selawik-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Selawik';
+    src: url('Selawik-Semibold.eot');
+    src: local('Selawik Semibold'), local('Selawik-Semibold'),
+        url('Selawik-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('Selawik-Semibold.woff2') format('woff2'),
+        url('Selawik-Semibold.woff') format('woff'),
+        url('Selawik-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Selawik Semilight';
+    src: url('Selawik-Semilight.eot');
+    src: local('Selawik Semilight'), local('Selawik-Semilight'),
+        url('Selawik-Semilight.eot?#iefix') format('embedded-opentype'),
+        url('Selawik-Semilight.woff2') format('woff2'),
+        url('Selawik-Semilight.woff') format('woff'),
+        url('Selawik-Semilight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Selawik';
+    src: url('Selawik-Light.eot');
+    src: local('Selawik Light'), local('Selawik-Light'),
+        url('Selawik-Light.eot?#iefix') format('embedded-opentype'),
+        url('Selawik-Light.woff2') format('woff2'),
+        url('Selawik-Light.woff') format('woff'),
+        url('Selawik-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Selawik';
+    src: url('Selawik-Regular.eot');
+    src: local('Selawik'), local('Selawik-Regular'),
+        url('Selawik-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Selawik-Regular.woff2') format('woff2'),
+        url('Selawik-Regular.woff') format('woff'),
+        url('Selawik-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

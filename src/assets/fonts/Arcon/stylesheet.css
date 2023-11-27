@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Arcon';
+    src: url('Arcon-Regular.eot');
+    src: local('Arcon Regular'), local('Arcon-Regular'),
+        url('Arcon-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Arcon-Regular.woff2') format('woff2'),
+        url('Arcon-Regular.woff') format('woff'),
+        url('Arcon-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arcon Rounded';
+    src: url('Arcon-Rounded-Regular.eot');
+    src: local('Arcon Rounded-Regular'), local('Arcon-Rounded-Regular'),
+        url('Arcon-Rounded-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Arcon-Rounded-Regular.woff2') format('woff2'),
+        url('Arcon-Rounded-Regular.woff') format('woff'),
+        url('Arcon-Rounded-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Simpel';
+    src: url('Simpel-Medium.eot');
+    src: local('Simpel Medium'), local('Simpel-Medium'),
+        url('Simpel-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Simpel-Medium.woff2') format('woff2'),
+        url('Simpel-Medium.woff') format('woff'),
+        url('Simpel-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
