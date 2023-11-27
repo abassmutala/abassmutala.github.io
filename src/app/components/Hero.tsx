@@ -8,7 +8,7 @@ function Hero() {
   // console.log(experience);
 
   return (
-    <section className="relative h-screen max-h-[480px] lg:max-h-[768px]">
+    <section className="relative h-full lg:h-screen lg:max-h-[768px]">
       <div className="h-full max-w-xl mx-auto px-6 md:px-8">
         <div className="h-full py-6 md:py-8 lg:py-12">
           <div className="h-full flex flex-col items-center justify-center gap-y-6 md:gap-y-8">
