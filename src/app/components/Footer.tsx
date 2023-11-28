@@ -32,7 +32,7 @@ function Footer() {
             </div>
           </div>
           <div className="mt-8 md:mt-12 flex flex-col md:flex-row-reverse md:items-center justify-between gap-y-4">
-            <div className="flex-shrink w-auto flex items-center justify-between gap-x-6 md:gap-x-8">
+            <div className="flex-shrink w-auto flex items-center justify-between md:gap-x-8">
               {footerConfig.socialLinks?.map((item) => {
                 const Icon = Icons[item.icon!];
                 return (

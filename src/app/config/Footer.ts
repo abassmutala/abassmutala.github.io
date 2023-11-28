@@ -17,11 +17,11 @@ export const footerConfig: FooterConfig = {
             name: "Instagram",
             link: "https://www.instagram.com/abass_mutala",
         },
-        {
-            icon: "tiktok",
-            name: "TikTok",
-            link: "https://www.tiktok.com/@abass_mutala",
-        },
+        // {
+        //     icon: "tiktok",
+        //     name: "TikTok",
+        //     link: "https://www.tiktok.com/@abass_mutala",
+        // },
         {
             icon: "x",
             name: "X",
@@ -35,7 +35,7 @@ export const footerConfig: FooterConfig = {
         },
         {
             name: "WhatsApp",
-            link: "https://www.tiktok.com/@wunnam_maven", //ToDo: Add appropriate link
+            link: "https://wa.me/233208585544",
         },
         {
             name: "Telegram",
