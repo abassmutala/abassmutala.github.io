@@ -8,56 +8,28 @@ function Hero() {
   // console.log(experience);
 
   return (
-    <section className="relative h-full lg:h-screen lg:max-h-[768px]">
-      <div className="h-full max-w-xl mx-auto px-6 md:px-8">
+    <section className="relative h-screen">
+      <div className="h-full max-w-screen-xl mx-auto px-6 md:px-8">
         <div className="h-full py-6 md:py-8 lg:py-12">
           <div className="h-full flex flex-col items-center justify-center gap-y-6 md:gap-y-8">
             <div className="w-full">
-              <p className="text-primary font-body">Hey, I&apos;m</p>
-              <h2 className="text-primary text-4xl md:text-5xl font-semibold font-heading mt-1">
+              {/* <p className="text-primary text-center font-body mb-1">Hey, I&apos;m</p> */}
+              <h2 className="text-transparent bg-primary bg-clip-text text-center text-5xl md:text-7xl lg:text-9xl font-bold font-heading animate-title duration-1000">
                 Abass Mutala
               </h2>
+              <h4 className="text-subtitle text-center text-xl font-medium font-heading line-clamp-2 mt-1 animate-fade-in duration-1000">
+                Software engineer at MarkApp
+              </h4>
             </div>
-            <div className="">
-              <p className="text-foreground font-body text-lg">
-                Software Developer with 2 years of professional experience and a
-                focus on modern JavaScript frameworks, particularly{" "}
-                <span className="text-primary font-semibold">React</span> and{" "}
-                <span className="text-primary font-semibold">Next JS</span>.
-                Well-versed in{" "}
-                <span className="text-primary font-semibold">TypeScript</span>,{" "}
-                <span className="text-primary font-semibold">Tailwind CSS</span>
-                , <span className="text-primary font-semibold">SASS/SCSS</span>{" "}
-                and <span className="text-primary font-semibold">Radix UI</span>
-                . Adept at delivering code that adheres to modern web standards
-                including{" "}
-                <span className="text-primary font-semibold">
-                  responsive design
-                </span>{" "}
-                and{" "}
-                <span className="text-primary font-semibold">
-                  cross-browser compatibility
-                </span>
-                . Also a seasoned{" "}
-                <span className="text-primary font-semibold">Flutter</span>{" "}
-                developer with previous projects for corporate companies. Also
-                familiar with{" "}
-                <span className="text-primary font-semibold">Figma</span>.
-                {/* Software developer with expertise in{" "}
-                <span className="text-primary">React</span>,{" "}
-                <span className="text-primary">NextJS</span>,{" "}
-                <span className="text-primary">TypeScript</span>,{" "}
-                <span className="text-primary">Tailwind</span>,{" "}
-                <span className="text-primary">SCSS</span>, and{" "}
-                <span className="text-primary">Flutter</span>. Known for turning
-                ideas into beautiful, user-centric, and impactful experiences
-                using <span className="text-primary">React</span> and{" "}
-                <span className="text-primary">Flutter</span>. Previously
-                launched car rental platform, Africar; shipped Android apps for
-                Access Bank. */}
+            <div className="max-w-4xl mx-auto">
+              <p className="text-foreground font-body text-lg text-center">
+                I build beautiful and responsive experiences for the{" "}
+                <span className="text-primary font-semibold">web</span>
+                &nbsp;and&nbsp;
+                <span className="text-primary font-semibold">mobile</span>.
               </p>
             </div>
-            <div className="w-full flex items-center justify-start gap-x-4 md:gap-x-6">
+            <div className="w-full flex items-center justify-center gap-x-4 md:gap-x-6">
               <Link
                 // passHref
                 // download

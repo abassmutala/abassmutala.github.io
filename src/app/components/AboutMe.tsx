@@ -22,49 +22,22 @@ function AboutMe() {
             </h3>
             <div className="">
               <p className="mb-1 font-body text-lg">
-                I live and breathe <span className="text-primary">React</span>{" "}
-                and <span className="text-primary">NextJS</span>. My favourite{" "}
-                <span className="text-primary">CSS frameworks</span> are{" "}
-                <span className="text-primary">Tailwind CSS</span> and{" "}
-                <span className="text-primary">SCSS</span>. I love{" "}
-                <span className="text-primary">Typescript</span> and I&apos;ve always
-                loved strongly-typed languages since my experience with{" "}
-                <span className="text-primary">Dart</span> with which I build
-                mobile apps with <span className="text-primary">Flutter</span>.
-                I am an apologist for{" "}
-                <span className="text-primary">appealing visual design</span>{" "}
-                not compromising on{" "}
-                <span className="text-primary">responsive design</span> and{" "}
-                <span className="text-primary">
-                  cross-browser compatibility
-                </span>
-                . I have a natural ability to understand what the user needs,
-                and put that to into design as well as code. and I have a drive
-                for continuous learning,{" "}
-                <span className="text-primary">improvement</span> and staying
-                up-to-date with the latest trends and{" "}
-                <span className="text-primary">best practices</span>.
+                Hey, I'm Abass! I specialize in crafting high-calibre web apps
+                using <span className="text-primary">React</span>,{" "}
+                <span className="text-primary">TypeScript</span>, and{" "}
+                <span className="text-primary">Next.js</span>, along with{" "}
+                <span className="text-primary">Flutter</span> for stellar mobile
+                experiences. While my expertise lies in frontend development,
+                I've delved into Node.js for backend projects. My passion for{" "}
+                <span className="text-primary">clean</span>,{" "}
+                <span className="text-primary">responsive designs</span> drives
+                my work. I'm a constant learner, staying updated with the latest
+                trends in <span className="text-primary">web development</span>.
               </p>
               <p className="font-body text-lg mb-1">
-                Throughout my career, I have worked on a variety of projects,
-                including{" "}
-                <span className="text-primary">mobile apps and websites</span>,
-                and I have a strong track record of delivering successful and
-                high-quality designs. With{" "}
-                <span className="text-primary">Flutter</span>, I&apos;ve built
-                Android applications with delightful features for{" "}
-                <span className="text-primary">Access Bank Ghana</span> and{" "}
-                <span className="text-primary">Glico General</span>. I have also
-                ventured into the world of{" "}
-                <span className="text-primary">backend</span>{" "}
-                with <span className="text-primary">Node</span> with which I
-                built a <span className="text-primary">REST API</span> for a car
-                rental application.
-              </p>
-              <p className="font-body text-lg mb-1">
-                In my free time, I enjoy watching football games or
-                documentaries, or simply catching up on some much-needed sleep
-                😴.
+                Outside coding, I enjoy immersing myself in football games,
+                documentaries, or simply catching up on some well-deserved
+                sleep.practices. 😴.
               </p>
             </div>
           </div>

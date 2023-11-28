@@ -17,11 +17,11 @@ export const footerConfig: FooterConfig = {
             name: "Instagram",
             link: "https://www.instagram.com/abass_mutala",
         },
-        {
-            icon: "tiktok",
-            name: "TikTok",
-            link: "https://www.tiktok.com/@abass_mutala",
-        },
+        // {
+        //     icon: "tiktok",
+        //     name: "TikTok",
+        //     link: "https://www.tiktok.com/@abass_mutala",
+        // },
         {
             icon: "x",
             name: "X",
