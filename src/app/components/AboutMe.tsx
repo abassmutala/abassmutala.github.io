@@ -28,12 +28,11 @@ function AboutMe() {
                 <span className="text-primary">Next.js</span>, along with{" "}
                 <span className="text-primary">Flutter</span> for stellar mobile
                 experiences. While my expertise lies in frontend development,
-                I&apos;ve delved into Node.js for backend projects. My passion
-                for <span className="text-primary">clean</span>,{" "}
+                I&apos;ve delved into Node.js for backend projects. My passion for{" "}
+                <span className="text-primary">clean</span>,{" "}
                 <span className="text-primary">responsive designs</span> drives
-                my work. I&apos;m a constant learner, staying updated with the
-                latest trends in{" "}
-                <span className="text-primary">web development</span>.
+                my work. I&apos;m a constant learner, staying updated with the latest
+                trends in <span className="text-primary">web development</span>.
               </p>
               <p className="font-body text-lg mb-1">
                 Outside coding, I enjoy immersing myself in football games,
