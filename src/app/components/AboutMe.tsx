@@ -1,5 +1,8 @@
 import React from "react";
 import Image from "next/image";
+import { techStackConfig } from "../config/TechStack";
+import { Icons } from "./icons";
+import clsx from "clsx";
 
 function AboutMe() {
   return (
@@ -21,24 +24,50 @@ function AboutMe() {
               A bit about me
             </h3>
             <div className="">
-              <p className="mb-1 font-body text-lg">
+              <p className="font-body text-lg mb-2">
                 Hey, I&apos;m Abass! I specialize in crafting high-calibre web
-                apps using <span className="text-primary">React</span>,{" "}
-                <span className="text-primary">TypeScript</span>, and{" "}
-                <span className="text-primary">Next.js</span>, along with{" "}
+                apps using <span className="text-primary">React</span>,&nbsp;
+                <span className="text-primary">TypeScript</span>, and&nbsp;
+                <span className="text-primary">Next.js</span>, along with&nbsp;
                 <span className="text-primary">Flutter</span> for stellar mobile
                 experiences. While my expertise lies in frontend development,
-                I&apos;ve delved into Node.js for backend projects. My passion for{" "}
-                <span className="text-primary">clean</span>,{" "}
+                I&apos;ve delved into&nbsp;
+                <span className="text-primary">Node.js</span> and&nbsp;
+                <span className="text-primary">Laravel</span> for backend
+                projects. My passion for&nbsp;
+                <span className="text-primary">clean</span>,&nbsp;
                 <span className="text-primary">responsive designs</span> drives
-                my work. I&apos;m a constant learner, staying updated with the latest
-                trends in <span className="text-primary">web development</span>.
+                my work. I&apos;m a constant learner, staying updated with the
+                latest trends in&nbsp;
+                <span className="text-primary">web development</span>.
               </p>
-              <p className="font-body text-lg mb-1">
+              <p className="font-body text-lg mb-2">
                 Outside coding, I enjoy immersing myself in football games,
-                documentaries, or simply catching up on some well-deserved
-                sleep.practices. 😴.
+                documentaries, or simply catching up on some well-deserved sleep
+                😴.
               </p>
+              <p className="font-body text-lg mb-2">My tech stack includes:</p>
+              <ul className="grid grid-cols-2 gap-x-4">
+                {techStackConfig.techStack.map((tech) => {
+                  const Icon = Icons[tech.icon!];
+                  return (
+                    <li
+                      key={tech.name}
+                      className="w-1/2 flex items-center gap-x-4 py-2 flex-wrap"
+                    >
+                      <Icon
+                        className={clsx(
+                          "h-5 w-5",
+                          tech.icon === "react"
+                            ? "stroke-primary"
+                            : "fill-primary"
+                        )}
+                      />
+                      <p className="">{tech.name}</p>
+                    </li>
+                  );
+                })}
+              </ul>
             </div>
           </div>
         </div>

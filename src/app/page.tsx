@@ -5,10 +5,10 @@ import TechStack from "./components/TechStack";
 
 export default function Home() {
   return (
-    <main className="relative min-h-screen">
+    <main className="relative flex-grow z-10 bg-background">
       <Hero />
       <AboutMe />
-      <TechStack />
+      {/* <TechStack /> */}
       <Projects />
     </main>
   );

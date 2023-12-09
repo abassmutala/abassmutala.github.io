@@ -9,7 +9,6 @@ export type NavItem = {
 export type TechItem = {
     icon?: keyof typeof Icons;
     name: string;
-    description?: string;
 }
 
 export type Project = {

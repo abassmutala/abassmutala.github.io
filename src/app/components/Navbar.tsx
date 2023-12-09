@@ -12,7 +12,7 @@ interface NavProps {
 export default function Navbar({ items, children }: NavProps) {
 
   return (
-    <header className="h-16 px-6 md:px-8 max-w-7xl mx-auto bg-background">
+    <header className="w-full h-16 px-6 md:px-8 max-w-7xl mx-auto bg-background">
       <div className="h-full">
         <div className="h-full py-2 md:py-3 flex items-center justify-between border-b border-[rgb(93,93,93)]">
           <div className="">

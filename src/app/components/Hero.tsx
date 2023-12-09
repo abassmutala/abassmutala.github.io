@@ -39,7 +39,7 @@ function Hero() {
                 href="/data/Resume.pdf"
                 className="group h-12 px-8 py-2 rounded-full border border-primary text-primary font-semibold flex items-center hover:bg-primary hover:text-background"
               >
-                Résumé
+                Resume
               </Link>
               {/* <Link
                 className="group relative inline-block overflow-hidden border border-indigo-600 px-8 py-3 focus:outline-none focus:ring"

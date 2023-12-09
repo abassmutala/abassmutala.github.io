@@ -5,7 +5,7 @@ import { Icons } from "./icons";
 
 function Footer() {
   return (
-    <footer className="bg-primary" id="contact">
+    <footer className="bg-primary sticky bottom-0 z-0" id="contact">
       <div className="py-6 md:py-8 lg:py-12">
         <div className="relative px-6 md:px-8 max-w-screen-xl mx-auto text-background">
           <div className="flex flex-col md:flex-row items-start gap-y-8">
