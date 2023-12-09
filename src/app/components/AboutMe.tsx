@@ -53,7 +53,7 @@ function AboutMe() {
                   return (
                     <li
                       key={tech.name}
-                      className="w-1/2 flex items-center gap-x-4 py-2 flex-wrap"
+                      className="w-full flex items-center gap-x-4 py-2 flex-wrap"
                     >
                       <Icon
                         className={clsx(
