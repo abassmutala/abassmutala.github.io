@@ -14,7 +14,7 @@ function TechStackItem(item: TechItem) {
             <h4 className="font-heading text-lg md:text-xl font-semibold text-primary">{item.name}</h4>
           </div>
           <div className="w-full mt-4">
-            <p className="font-body">{item.description}</p>
+            {/* <p className="font-body">{item.description}</p> */}
           </div>
         </div>
       </div>
