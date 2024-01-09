@@ -2,7 +2,34 @@ import { Project } from "../types";
 
 export const projectsConfig: { projects: Project[] } = {
     projects: [
-
+        {
+            id: "1",
+            name: "Firebase exporter", tagline: "Export firebase data to json or csv format",
+            dates: "Jan 2024 - Present",
+            type: "Website/Web app",
+            link: "#",
+            techStack: [
+                {
+                    name: "HTML",
+                    // icon: "react",
+                },
+                { name: "CSS" },
+                { name: "JavaScript", icon: "javascript" },
+                { name: "Node JS", icon: "nodejs" },
+                { name: "Express" },
+                {
+                    name: "Firebase",
+                    icon: "firebase"
+                },
+            ],
+            description: "Web application for exporting data from Firebase Firestore database to JSON, and converting that data into .xlsx format for viewing in a spreadsheet.",
+            image: "/images/firebase_exporter.jpeg",
+            // backgroundColor: "linear-gradient(120deg, #2d2b26, #4d122f)",//"#F1F5FD",
+            // backgroundColor: "#FFFFFF",
+            backgroundColor: "rgb(185 28 28)",
+            textColor: "#FFFFFF",
+            isMobileProject: false,
+        },
         {
             id: "1",
             name: "Beauty Cosmetics", tagline: "E-commerce website for Beauty Cosmetics Manufacturing Ltd.",
@@ -50,33 +77,6 @@ export const projectsConfig: { projects: Project[] } = {
             description:
                 "An event management Android application used for logging attendee check-in at events and conferences.",
             image: "/images/markapp_forms.png",
-            // backgroundColor: "linear-gradient(120deg, #2d2b26, #4d122f)",//"#F1F5FD",
-            // backgroundColor: "#FFFFFF",
-            backgroundColor: "rgb(185 28 28)",
-            textColor: "#FFFFFF",
-            isMobileProject: false,
-        },
-        {
-            id: "1",
-            name: "Firebase exporter", tagline: "Export firebase data to json or csv format",
-            dates: "Nov 2023 - Present",
-            type: "Website/Web app",
-            link: "#",
-            techStack: [
-                {
-                    name: "React",
-                    icon: "react",
-                },
-                { name: "TypeScript", icon: "typescript" },
-                { name: "Node JS", icon: "nodejs" },
-                { name: "Express" },
-                {
-                    name: "Firebase",
-                    icon: "firebase"
-                },
-                { name: "Sass", icon: "sass" },
-            ],
-            description:"Web application for exporting data from Firebase Firestore database to JSON, and converting that data into .xlsx format for viewing in a spreadsheet.",           image: "/images/alpha_bank.png",
             // backgroundColor: "linear-gradient(120deg, #2d2b26, #4d122f)",//"#F1F5FD",
             // backgroundColor: "#FFFFFF",
             backgroundColor: "rgb(185 28 28)",

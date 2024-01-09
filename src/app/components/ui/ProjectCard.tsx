@@ -25,9 +25,9 @@ function ProjectCard({
       <div className="relative w-full overflow-hidden">
         <div
           className="overflow-hidden w-full aspect-video rounded-xl"
-          style={{
-            background: backgroundColor,
-          }}
+          // style={{
+          //   background: backgroundColor,
+          // }}
         >
           <Image
             src={image}
@@ -38,7 +38,7 @@ function ProjectCard({
               isMobileProject
                 ? "object-center object-contain"
                 : "object-top object-cover",
-              "h-full rounded-xl" /* group-hover:scale-105 transition-transform duration-300 ease-in" */
+              "h-full rounded-xl group-hover:scale-105 transition-transform duration-300 ease-in"
             )}
           />
         </div>
