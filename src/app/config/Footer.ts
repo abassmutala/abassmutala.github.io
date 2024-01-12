@@ -25,7 +25,7 @@ export const footerConfig: FooterConfig = {
         {
             icon: "x",
             name: "X",
-            link: "https://x.com/abass_mutala",
+            link: "https://x.com/abassmutala",
         },
     ],
     chatLinks: [
