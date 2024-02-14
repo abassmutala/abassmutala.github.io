@@ -18,7 +18,7 @@ function Hero() {
                 Abass Mutala
               </h2>
               <h4 className="text-subtitle text-center text-xl font-medium font-heading line-clamp-2 mt-1 animate-fade-in duration-1000">
-                Software engineer at MarkApp
+                Software engineer at Crescendo
               </h4>
             </div>
             <div className="max-w-4xl mx-auto">
