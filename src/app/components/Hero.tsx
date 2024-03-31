@@ -3,10 +3,6 @@ import React from "react";
 import { Icons } from "./icons";
 
 function Hero() {
-  // const diff: number = Date.now() - Date.parse("2022");
-  // const experience: Date = diff.;
-  // console.log(experience);
-
   return (
     <section className="relative h-screen">
       <div className="h-full max-w-screen-xl mx-auto px-6 md:px-8">
