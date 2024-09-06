@@ -33,7 +33,7 @@ export const projectsConfig: { projects: Project[] } = {
         {
             id: "1",
             name: "Beauty Cosmetics", tagline: "E-commerce website for Beauty Cosmetics Manufacturing Ltd.",
-            dates: "Nov 2023 - Present",
+            dates: "Nov 2023 - Feb 2024",
             type: "Website/Web app",
             link: "https://beautycosmeticsgh.com",
             techStack: [
