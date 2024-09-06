@@ -2,7 +2,31 @@ import { Project } from "../types";
 
 export const projectsConfig: { projects: Project[] } = {
     projects: [
-        {
+       {
+            id: "1",
+            name: "Access Bank: A Sandal More", tagline: "Log information of exercise's beneficiaries.",
+            dates: "Jul 2024 - Aug 2024",
+            type: "Android app",
+            link: "#",
+            techStack: [
+                {
+                    name: "Flutter",
+                    // icon: "react",
+                },
+                { name: "Dart" },
+                {
+                    name: "Firebase",
+                    icon: "firebase"
+                },
+            ],
+            description: "Android application used for collecting information of students who are beneficiaries of the exercise. Includes a record feature for recording voices of beneficent students.",
+            image: "",
+            // backgroundColor: "linear-gradient(120deg, #2d2b26, #4d122f)",//"#F1F5FD",
+            // backgroundColor: "#FFFFFF",
+            backgroundColor: "rgb(185 28 28)",
+            textColor: "#FFFFFF",
+            isMobileProject: true,
+        },{
             id: "1",
             name: "Firebase exporter", tagline: "Export firebase data to json or csv format",
             dates: "Jan 2024 - Present",
