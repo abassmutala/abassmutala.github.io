@@ -2,9 +2,9 @@ import { Project } from "../types";
 
 export const projectsConfig: { projects: Project[] } = {
     projects: [
-       {
-            id: "1",
-            name: "Access Bank: A Sandal More", tagline: "Log information of exercise's beneficiaries.",
+        {
+            id: "a_sandal_more",
+            title: "Access Bank: A Sandal More", tagline: "Log information of exercise's beneficiaries.",
             dates: "Jul 2024 - Aug 2024",
             type: "Android app",
             link: "#",
@@ -20,15 +20,46 @@ export const projectsConfig: { projects: Project[] } = {
                 },
             ],
             description: "Android application used for collecting information of students who are beneficiaries of the exercise. Includes a record feature for recording voices of beneficent students.",
-            image: "",
+            image: "/images/a_sandal_more/landing_list.png",
             // backgroundColor: "linear-gradient(120deg, #2d2b26, #4d122f)",//"#F1F5FD",
             // backgroundColor: "#FFFFFF",
             backgroundColor: "rgb(185 28 28)",
             textColor: "#FFFFFF",
             isMobileProject: true,
-        },{
+        },
+        {
+            id: "trilo",
+            title: "Trilo", tagline: "Log information of shops in the Greater Accra region.",
+            dates: "Apr - Jun 2024",
+            type: "Android app",
+            link: "#",
+            techStack: [
+                {
+                    name: "Flutter",
+                    // icon: "react",
+                },
+                { name: "Dart" },
+                {
+                    name: "Firebase",
+                    icon: "firebase"
+                },
+                {
+                    name: "Google Maps API",
+                },
+                {
+                    name: "Google Places API",
+                },
+            ],
+            description: "Android application used for collecting information of students who are beneficiaries of the exercise. Includes a record feature for recording voices of beneficent students.",
+            image: "/images/a_sandal_more/a_sandal_more.png",
+            // backgroundColor: "linear-gradient(120deg, #2d2b26, #4d122f)",//"#F1F5FD",
+            // backgroundColor: "#FFFFFF",
+            backgroundColor: "rgb(185 28 28)",
+            textColor: "#FFFFFF",
+            isMobileProject: true,
+        }, {
             id: "1",
-            name: "Firebase exporter", tagline: "Export firebase data to json or csv format",
+            title: "Firebase exporter", tagline: "Export firebase data to json or csv format",
             dates: "Jan 2024 - Present",
             type: "Website/Web app",
             link: "#",
@@ -56,7 +87,7 @@ export const projectsConfig: { projects: Project[] } = {
         },
         {
             id: "1",
-            name: "Beauty Cosmetics", tagline: "E-commerce website for Beauty Cosmetics Manufacturing Ltd.",
+            title: "Beauty Cosmetics", tagline: "E-commerce website for Beauty Cosmetics Manufacturing Ltd.",
             dates: "Nov 2023 - Feb 2024",
             type: "Website/Web app",
             link: "https://beautycosmeticsgh.com",
@@ -83,7 +114,7 @@ export const projectsConfig: { projects: Project[] } = {
         },
         {
             id: "1",
-            name: "MarkApp Forms", tagline: "Android app for event attendee regisrtration",
+            title: "MarkApp Forms", tagline: "Android app for event attendee regisrtration",
             dates: "Nov 2023",
             type: "Android app",
             link: "#",
@@ -108,8 +139,8 @@ export const projectsConfig: { projects: Project[] } = {
             isMobileProject: false,
         },
         {
-            id: "2",
-            name: "Africar API", tagline: "REST API for car rental platform",
+            id: "africar_api",
+            title: "Africar API", tagline: "REST API for car rental platform",
             dates: "May 2023",
             type: "Backend project",
             link: "#",
@@ -133,8 +164,8 @@ export const projectsConfig: { projects: Project[] } = {
             isMobileProject: false,
         },
         {
-            id: "3",
-            name: "Glico Stores",
+            id: "glico_stores",
+            title: "Glico Stores",
             dates: "Jul 2023 - Aug 2023",
             type: "Android app",
             link: "#",
@@ -160,7 +191,7 @@ export const projectsConfig: { projects: Project[] } = {
         },
         {
             id: "4",
-            name: "Africar", tagline: "Car rental platform",
+            title: "Africar", tagline: "Car rental platform",
             dates: "Nov 2023 - Feb 2024",
             type: "Website/Web app",
             link: "https://africar2023.vercel.app/",
@@ -204,7 +235,7 @@ export const projectsConfig: { projects: Project[] } = {
         },
         {
             id: "5",
-            name: "Blazon", tagline: "Movie streaming mobile app",
+            title: "Blazon", tagline: "Movie streaming mobile app",
             dates: "Aug 2020",
             type: "iOS app",
             link: "#",
@@ -230,7 +261,7 @@ export const projectsConfig: { projects: Project[] } = {
         },
         {
             id: "6",
-            name: "Bookiema", tagline: "Book stays in Ghana",
+            title: "Bookiema", tagline: "Book stays in Ghana",
             dates: "Feb 2022 - Jun 2022",
             type: "Android app",
             link: "#",
@@ -257,7 +288,7 @@ export const projectsConfig: { projects: Project[] } = {
         },
         {
             id: "7",
-            name: "Access Bank Form", tagline: "Log event attendees",
+            title: "Access Bank Form", tagline: "Log event attendees",
             dates: "Jul 2023",
             type: "Android app",
             link: "#",

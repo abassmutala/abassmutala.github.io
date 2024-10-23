@@ -12,7 +12,7 @@ function ProjectCard({
   textColor,
   isMobileProject,
   image,
-  name,
+  title,
   description,
   dates,
   type,
@@ -20,8 +20,8 @@ function ProjectCard({
   link,
 }: Project) {
   return (
-    // <Link href={`/projects/${id}`} className="group">
-    <Link href={link} target="_blank" className="group">
+    <Link href={`/projects/${id}`} className="group">
+    {/* <Link href={link} target="_blank" className="group"> */}
       <div className="relative w-full overflow-hidden">
         <div
           className="overflow-hidden w-full aspect-video rounded-xl"
@@ -46,7 +46,7 @@ function ProjectCard({
           <div className="w-full">
             <div className="group inline-flex items-baseline">
               <h4 className="font-body text-xl font-bold text-foreground line-clamp-1 group-hover:animate-pulse">
-                {name}
+                {title}
               </h4>
               <Icons.arrowUpRight className="inline-block h-4 w-4 text-subtitle group-hover:text-foreground shrink-0 transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-focus-visible:-translate-y-1 group-focus-visible:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" />
             </div>
@@ -55,7 +55,7 @@ function ProjectCard({
             </small>
             <div className="flex items-center gap-2 flex-wrap mt-2 lg:mt-3 max-h-14 overflow-scroll">
               {techStack.map((item) => (
-                <TechChip key={name} {...item} />
+                <TechChip key={title} {...item} />
               ))}
             </div>
           </div>

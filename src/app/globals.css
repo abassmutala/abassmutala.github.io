@@ -33,6 +33,45 @@
   }
 }
 
+.markdown-content h3 {
+  @apply text-2xl font-bold mb-4;
+}
+
+.markdown-content h4 {
+  @apply text-xl font-bold mb-2;
+}
+
+.markdown-content p {
+  @apply mb-4 text-base;
+}
+
+.markdown-content blockquote {
+  @apply border-l-4 border-gray-300 pl-4 italic mb-4;
+}
+
+.markdown-content ul,
+.markdown-content ol {
+  @apply list-disc pl-6 mb-4;
+}
+
+.markdown-content li {
+  @apply mb-2;
+}
+
+.markdown-content a {
+  @apply text-blue-500 hover:underline;
+}
+
+.markdown-content img {
+  @apply rounded-lg shadow-md; /* Style images */
+}
+
+.markdown-content .image-grid {
+  @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4; /* Grid styles for images */
+}
+
+
+
 /* .padding-sides {
   padding-left: max(var(--margin-sides), calc(50% - var(--max-width) / 2));
 } */

@@ -23,10 +23,6 @@ export const techStackConfig: ({ techStack: TechItem[] }) = {
             name: "SASS",
         },
         {
-            icon: "laravel",
-            name: "Laravel",
-        },
-        {
             icon: "tailwind",
             name: "Tailwind CSS",
         },
