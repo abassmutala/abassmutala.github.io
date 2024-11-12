@@ -1,4 +1,3 @@
-import React from "react";
 import { projectsConfig } from "../config/Projects";
 import ProjectCard from "./ui/ProjectCard";
 import Link from "next/link";

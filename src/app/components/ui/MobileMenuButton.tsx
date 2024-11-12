@@ -2,11 +2,11 @@
 
 import { NavItem, SocialLink } from "@/app/types";
 import Link from "next/link";
-import React from "react";
+import { useState } from "react";
 import { Icons } from "../icons";
 
 function MobileMenuButton({ items }: { items: NavItem[] | undefined }) {
-  const [showMobileMenu, setShowMobileMenu] = React.useState<boolean>(false);
+  const [showMobileMenu, setShowMobileMenu] = useState<boolean>(false);
 
   return (
     <>
@@ -24,7 +24,10 @@ function MobileMenuButton({ items }: { items: NavItem[] | undefined }) {
             <ul className="w-full px-6 py-4 divide-y divide-primary">
               {items?.map((item) => (
                 <li key={item.title} className="w-full">
-                  <Link href={item.href} className="w-full py-3 hover:bg-primary/20">
+                  <Link
+                    href={item.href}
+                    className="w-full py-3 hover:bg-primary/20"
+                  >
                     <p className="py-3">{item.title}</p>
                   </Link>
                 </li>

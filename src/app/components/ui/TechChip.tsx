@@ -1,6 +1,4 @@
 import { TechItem } from "@/app/types";
-import React from "react";
-import { Icons } from "../icons";
 
 function TechChip(tech: TechItem) {
   // const Icon = Icons[tech.icon || "react"];

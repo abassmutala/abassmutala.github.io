@@ -1,3 +1,4 @@
+import { projectsConfig } from "@/app/config/Projects";
 import { ProjectDetail } from "@/app/types";
 import fs from "fs";
 import matter from "gray-matter";
@@ -11,6 +12,11 @@ export function getProjectSlugs() {
     return fs.readdirSync(projectsDirectory);
 }
 
+export function getAllProjectIds() {
+    const projectIds = projectsConfig.projects.map((project) => ({ id: project.id }));
+    return projectIds;
+}
+
 export async function getProjectById(id: string): Promise<ProjectDetail | null> {
 
     try {
@@ -21,7 +27,7 @@ export async function getProjectById(id: string): Promise<ProjectDetail | null> 
         return { ...data, content: htmlContent.toString() } as ProjectDetail;
     } catch (error) {
         console.error('Error fetching project by ID:', error);
-    return null;
+        return null;
     }
 }
 

@@ -41,7 +41,7 @@ function AboutMe() {
                 <span className="text-primary">web development</span>.
               </p>
               <p className="font-body text-lg mb-2">
-                Outside coding, I enjoy immersing myself in football games,
+                Outside coding, I enjoy watching F1 races, football games,
                 documentaries, or simply catching up on some well-deserved sleep
                 😴.
               </p>

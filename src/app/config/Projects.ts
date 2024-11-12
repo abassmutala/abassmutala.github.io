@@ -51,14 +51,14 @@ export const projectsConfig: { projects: Project[] } = {
                 },
             ],
             description: "Android application used for collecting information of students who are beneficiaries of the exercise. Includes a record feature for recording voices of beneficent students.",
-            image: "/images/a_sandal_more/a_sandal_more.png",
+            image: "/images/trilo/stores_list.png",
             // backgroundColor: "linear-gradient(120deg, #2d2b26, #4d122f)",//"#F1F5FD",
             // backgroundColor: "#FFFFFF",
             backgroundColor: "rgb(185 28 28)",
             textColor: "#FFFFFF",
             isMobileProject: true,
         }, {
-            id: "1",
+            id: "firebase_exporter",
             title: "Firebase exporter", tagline: "Export firebase data to json or csv format",
             dates: "Jan 2024 - Present",
             type: "Website/Web app",
@@ -86,7 +86,7 @@ export const projectsConfig: { projects: Project[] } = {
             isMobileProject: false,
         },
         {
-            id: "1",
+            id: "beauty_cosmetics",
             title: "Beauty Cosmetics", tagline: "E-commerce website for Beauty Cosmetics Manufacturing Ltd.",
             dates: "Nov 2023 - Feb 2024",
             type: "Website/Web app",
@@ -113,7 +113,7 @@ export const projectsConfig: { projects: Project[] } = {
             isMobileProject: false,
         },
         {
-            id: "1",
+            id: "markapp_forms",
             title: "MarkApp Forms", tagline: "Android app for event attendee regisrtration",
             dates: "Nov 2023",
             type: "Android app",
@@ -190,7 +190,7 @@ export const projectsConfig: { projects: Project[] } = {
             isMobileProject: true,
         },
         {
-            id: "4",
+            id: "africar",
             title: "Africar", tagline: "Car rental platform",
             dates: "Nov 2023 - Feb 2024",
             type: "Website/Web app",
@@ -234,7 +234,7 @@ export const projectsConfig: { projects: Project[] } = {
             isMobileProject: false,
         },
         {
-            id: "5",
+            id: "blazon",
             title: "Blazon", tagline: "Movie streaming mobile app",
             dates: "Aug 2020",
             type: "iOS app",
@@ -260,7 +260,7 @@ export const projectsConfig: { projects: Project[] } = {
             isMobileProject: true,
         },
         {
-            id: "6",
+            id: "bookiema",
             title: "Bookiema", tagline: "Book stays in Ghana",
             dates: "Feb 2022 - Jun 2022",
             type: "Android app",
@@ -287,8 +287,8 @@ export const projectsConfig: { projects: Project[] } = {
             isMobileProject: true,
         },
         {
-            id: "7",
-            title: "Access Bank Form", tagline: "Log event attendees",
+            id: "access_bank_events_register",
+            title: "Access Bank Events Register", tagline: "Log event attendees",
             dates: "Jul 2023",
             type: "Android app",
             link: "#",
