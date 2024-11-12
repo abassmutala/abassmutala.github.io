@@ -1,0 +1,46 @@
+---
+title: Trilo  
+description: Agent and Admin apps developed for MarkApp, used for data collection and management.  
+dates: "April - June 2024"  
+url: 
+---
+
+### Overview  
+**Trilo** is a dual app project consisting of an agent app and an admin app, built to facilitate the collection and management of data for various stores across Ghana. Initially built on top of Glico Stores, it was later adopted by Beauty Cosmetics Manufacturing Limited for gathering information about cosmetic shops in the Greater Accra region. Agents use the app to register shops, while the admin app allows oversight of the registered data.
+
+### Technologies Used  
+#### Languages & Frameworks  
+- **Flutter** - For building the user interfaces and application logic for both apps.
+- **Firebase Firestore & Storage** - To store user and shop data, along with any images or additional media.
+- **Google Maps & Google Places APIs** - For mapping shop locations and converting GPS coordinates into human-readable addresses.
+
+### App Features  
+- **Image Preview with Gestures:** Agents can upload shop images and preview them with zoom and other gesture controls.
+- **Google Maps Integration:** Both apps incorporate Google Maps. Agents can capture the current shop location, while admins view registered shops on a map with markers.
+- **Current Location Detection:** The agent app retrieves and stores the GPS coordinates of the shop, converting them into addresses using the Google Places API.
+- **Admin View:** Admins can oversee all registered shops, displayed in both map and list views. Admins also have the ability to create new Firebase collections and add additional data fields.
+
+### Challenges & Learnings  
+One major challenge was adapting to recent changes in the Google Maps API, which required refreshing my knowledge and adjusting the implementation. Additionally, integrating Google APIs for location conversion was new to me, but rewarding after I did it.
+
+### Outcome  
+The project successfully served Beauty Cosmetics Manufacturing Limited by registering over 1,500 cosmetic shops in the Greater Accra region. It's currently being reused by Access Bank Ghana for the **A Sandal More** initiative, onboarding vulcanizers to retrieve old tires. More types of shops are expected to be added in future phases.
+
+### Future Enhancements  
+- **iOS Support:** The apps will be extended to support iOS devices for broader use.
+- **App Store Deployment:** I plan to publish both apps on the Google Play Store and Apple App Store to increase accessibility.
+
+### Screenshots  
+Below are screenshots showcasing the app:
+
+![Agent App Screenshot](/images/trilo/agent_app.png)  
+*The agent app's shop registration form.*
+
+![Admin Map View](/images/trilo/admin_map_view.png)  
+*The admin app showing all registered shops on a map.*
+
+![Image Preview Feature](/images/trilo/image_preview.png)  
+*Image preview with zoom gestures.*
+
+### Conclusion  
+Building **Trilo** allowed me to deepen my expertise in integrating Google Maps and Firebase. It was exciting to see the app's utility expand beyond its original purpose, now helping multiple organizations in their data collection efforts.

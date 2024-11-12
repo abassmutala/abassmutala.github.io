@@ -13,7 +13,7 @@ export type TechItem = {
 
 export type Project = {
     id: string,
-    name: string,
+    title: string,
     tagline?: string,
     dates: string,
     type: "UI/UX Design" | "Website/Web app" | "Android app" | "iOS app" | "Backend project",
@@ -23,6 +23,18 @@ export type Project = {
     backgroundColor: string,
     textColor: string,
     isMobileProject: boolean,
+    link: string,
+}
+
+export type ProjectDetail = {
+    id: string,
+    title: string,
+    overview: string,
+    description: string,
+    content: any,
+    image: string,
+    backgroundColor: string,
+    textColor: string,
     link: string,
 }
 

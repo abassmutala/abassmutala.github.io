@@ -33,7 +33,7 @@ function Hero() {
                 // download
                 target="_blank"
                 href="/data/Resume.pdf"
-                className="group h-12 px-8 py-2 rounded-full border border-primary text-primary font-semibold flex items-center hover:bg-primary hover:text-background"
+                className="group h-12 px-8 py-2 rounded-full border border-primary text-primary font-semibold flex items-center transition-colors duration-300 ease-in-out hover:bg-primary hover:text-background"
               >
                 Resume
               </Link>
@@ -48,18 +48,18 @@ function Hero() {
                 </span>
               </Link> */}
               <Link
-                href="https://www.linkedin.com/in/abassmutala/"
-                target="_blank"
-                className="group h-12 aspect-square p-3 rounded-full border border-primary flex items-center justify-center hover:bg-primary"
-              >
-                <Icons.linkedin className="fill-primary group-hover:fill-background transition-all duration-300 ease-in-out" />
-              </Link>
-              <Link
                 href="https://github.com/abassmutala"
                 target="_blank"
-                className="group h-12 aspect-square p-3 rounded-full border border-primary flex items-center justify-center hover:bg-primary"
+                className="group h-12 aspect-square p-3 rounded-full border border-primary flex items-center justify-center transition-colors duration-300 ease-in-out hover:bg-primary"
               >
                 <Icons.github className="fill-primary group-hover:fill-background transition-all duration-300 ease-in-out" />
+              </Link>
+              <Link
+                href="https://www.linkedin.com/in/abassmutala/"
+                target="_blank"
+                className="group h-12 aspect-square p-3 rounded-full border border-primary flex items-center justify-center transition-colors duration-300 ease-in-out hover:bg-primary"
+              >
+                <Icons.linkedin className="fill-primary group-hover:fill-background transition-all duration-300 ease-in-out" />
               </Link>
             </div>
           </div>
