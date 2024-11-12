@@ -24,7 +24,7 @@ function Projects() {
             {/* <div className="w-full space-y-4 lg:space-y-8"> */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-6">
               {projectsConfig.projects?.slice(0, -3).map((item) => (
-                <ProjectCard key={item.name} {...item} />
+                <ProjectCard key={item.title} {...item} />
               ))}
             </div>
           </div>
