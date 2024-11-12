@@ -1,6 +1,12 @@
 import ProjectHeader from "@/app/components/ui/ProjectHeader";
-import{ getProjectById } from "../../../../utils";
+import { getAllProjectIds, getProjectById } from "../../../../utils";
 import { ProjectDetail } from "@/app/types";
+
+// Function to define all possible IDs for static export
+export function generateStaticParams() {
+  const projectIds = getAllProjectIds();
+  return projectIds;
+}
 
 async function ProjectDetails({ params }: { params: { id: string } }) {
   const id = params.id;

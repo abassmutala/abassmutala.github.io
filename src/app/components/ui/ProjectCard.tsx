@@ -2,7 +2,6 @@ import { Project } from "@/app/types";
 import clsx from "clsx";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 import { Icons } from "../icons";
 import TechChip from "./TechChip";
 
