@@ -20,7 +20,7 @@ async function ProjectDetails({ params }: { params: { id: string } }) {
     <main className="relative flex-grow z-10 bg-background">
       <ProjectHeader name={project.title} tagline={project.description} />
       <section className="relative">
-        <div className="relative px-6 md:px-8 max-w-screen-xl mx-auto">
+        <div className="relative px-6 md:px-8 max-w-4xl mx-auto">
           <div className="py-6 md:py-8 lg:py-12">
             <article className="prose prose-lg mx-auto my-8">
               <div
