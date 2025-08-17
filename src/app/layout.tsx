@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import { mainNavConfig } from "./config/MainNav";
 import "./globals.css";
+import Script from "next/script";
 
 // const fontHeading = localFont({
 //   src: [
@@ -147,6 +148,11 @@ export default function RootLayout({
           fontBody.variable
         )}
       >
+        <Script
+          defer
+          src="https://cloud.umami.is/script.js"
+          data-website-id="a491e9ab-f241-470e-9c91-918eba6e1697"
+        />
         <Navbar items={mainNavConfig.mainNavItems} />
         {children}
         <Footer />
