@@ -18,7 +18,6 @@ export function getAllProjectIds() {
 }
 
 export async function getProjectById(id: string): Promise<ProjectDetail | null> {
-
     try {
         const fullPath = join(projectsDirectory, `${id}.mdx`);
         const fileContents = fs.readFileSync(fullPath, "utf8");
