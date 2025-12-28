@@ -16,7 +16,7 @@ export type Project = {
     title: string,
     tagline?: string,
     dates: string,
-    type: "UI/UX Design" | "Website/Web app" | "Android app" | "iOS app" | "Backend project",
+    type: "UI/UX Design" | "Website/Web app" | "Android app" | "iOS app" | "Backend project" | "Mobile app" | "Web app" | "Web app & Mobile app",
     techStack: TechItem[],
     description: string,
     image: string,

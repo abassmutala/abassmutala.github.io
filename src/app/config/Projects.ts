@@ -3,6 +3,80 @@ import { Project } from "../types";
 export const projectsConfig: { projects: Project[] } = {
     projects: [
         {
+            id: "shelfer",
+            title: "Shelfer", tagline: "A web and mobile platform that helps small businesses track inventory, sales, agents, and generate receipts in real time.",
+            dates: "Jan 2025 - Present",
+            type: "Web app & Mobile app",
+            link: "#",
+            techStack: [
+                { name: "Next.js" },
+                { name: "TypeScript" },
+                { name: "JavaScript" },
+                { name: "Shadcn/ui" },
+                {
+                    name: "Flutter",
+                },
+                { name: "Dart" },
+            ],
+            description: "Web and mobile platform that helps small businesses track inventory, sales, agents, and generate receipts in real time.",
+            image: "/images/a_sandal_more/landing_list.png",
+            // backgroundColor: "linear-gradient(120deg, #2d2b26, #4d122f)",//"#F1F5FD",
+            // backgroundColor: "#FFFFFF",
+            backgroundColor: "rgb(185 28 28)",
+            textColor: "#FFFFFF",
+            isMobileProject: true,
+        },
+        {
+            id: "mashharder",
+            title: "MashHarder", tagline: "Gaming platform.",
+            dates: "Jun 2025 - Oct 2025",
+            type: "Web app & Mobile app",
+            link: "#",
+            techStack: [
+                { name: "Next.js" },
+                { name: "TypeScript" },
+                { name: "JavaScript" },
+                {
+                    name: "Flutter",
+                },
+                { name: "Dart" },
+                { name: "Shadcn/ui" },
+                {
+                    name: "YouTube Content API",
+                },
+            ],
+            description: "Website, internal analytics dashboard, and mobile application for gaming platform that host gaming tournaments.",
+            image: "/images/mashharder/analytics_dashboard.jpeg",
+            // backgroundColor: "linear-gradient(120deg, #2d2b26, #4d122f)",//"#F1F5FD",
+            // backgroundColor: "#FFFFFF",
+            backgroundColor: "rgb(185 28 28)",
+            textColor: "#FFFFFF",
+            isMobileProject: true,
+        },
+        {
+            id: "pageline-concepts",
+            title: "Pageline Concepts", tagline: "Corporate Website.",
+            dates: "Jun 2025 - Jul 2025",
+            type: "Website/Web app",
+            link: "https://pagelineconcepts.com/",
+            techStack: [
+                {
+                    name: "Astro",
+                },
+                { name: "TypeScript" },
+                {
+                    name: "Sanity CMS",
+                },
+            ],
+            description: "Corporate website for branding agency based in Ghana.",
+            image: "/images/pageline_concepts/homepage.jpeg",
+            // backgroundColor: "linear-gradient(120deg, #2d2b26, #4d122f)",//"#F1F5FD",
+            // backgroundColor: "#FFFFFF",
+            backgroundColor: "rgb(185 28 28)",
+            textColor: "#FFFFFF",
+            isMobileProject: true,
+        },
+        {
             id: "a_sandal_more",
             title: "Access Bank: A Sandal More", tagline: "Log information of exercise's beneficiaries.",
             dates: "Jul 2024 - Aug 2024",
@@ -36,7 +110,6 @@ export const projectsConfig: { projects: Project[] } = {
             techStack: [
                 {
                     name: "Flutter",
-                    // icon: "react",
                 },
                 { name: "Dart" },
                 {
@@ -50,41 +123,42 @@ export const projectsConfig: { projects: Project[] } = {
                     name: "Google Places API",
                 },
             ],
-            description: "Android application used for collecting information of students who are beneficiaries of the exercise. Includes a record feature for recording voices of beneficent students.",
+            description: "Android application used for collecting information of shops accross the country.",
             image: "/images/trilo/stores_list.png",
             // backgroundColor: "linear-gradient(120deg, #2d2b26, #4d122f)",//"#F1F5FD",
             // backgroundColor: "#FFFFFF",
             backgroundColor: "rgb(185 28 28)",
             textColor: "#FFFFFF",
             isMobileProject: true,
-        }, {
-            id: "firebase_exporter",
-            title: "Firebase exporter", tagline: "Export firebase data to json or csv format",
-            dates: "Jan 2024 - Present",
-            type: "Website/Web app",
-            link: "#",
-            techStack: [
-                {
-                    name: "HTML",
-                    // icon: "react",
-                },
-                { name: "CSS" },
-                { name: "JavaScript", icon: "javascript" },
-                { name: "Node JS", icon: "nodejs" },
-                { name: "Express" },
-                {
-                    name: "Firebase",
-                    icon: "firebase"
-                },
-            ],
-            description: "Web application for exporting data from Firebase Firestore database to JSON, and converting that data into .xlsx format for viewing in a spreadsheet.",
-            image: "/images/firebase_exporter.jpeg",
-            // backgroundColor: "linear-gradient(120deg, #2d2b26, #4d122f)",//"#F1F5FD",
-            // backgroundColor: "#FFFFFF",
-            backgroundColor: "rgb(185 28 28)",
-            textColor: "#FFFFFF",
-            isMobileProject: false,
         },
+        // {
+        //     id: "firebase_exporter",
+        //     title: "Firebase exporter", tagline: "Export firebase data to json or csv format",
+        //     dates: "Jan 2024 - Present",
+        //     type: "Website/Web app",
+        //     link: "#",
+        //     techStack: [
+        //         {
+        //             name: "HTML",
+        //             // icon: "react",
+        //         },
+        //         { name: "CSS" },
+        //         { name: "JavaScript", icon: "javascript" },
+        //         { name: "Node JS", icon: "nodejs" },
+        //         { name: "Express" },
+        //         {
+        //             name: "Firebase",
+        //             icon: "firebase"
+        //         },
+        //     ],
+        //     description: "Web application for exporting data from Firebase Firestore database to JSON, and converting that data into .xlsx format for viewing in a spreadsheet.",
+        //     image: "/images/firebase_exporter.jpeg",
+        //     // backgroundColor: "linear-gradient(120deg, #2d2b26, #4d122f)",//"#F1F5FD",
+        //     // backgroundColor: "#FFFFFF",
+        //     backgroundColor: "rgb(185 28 28)",
+        //     textColor: "#FFFFFF",
+        //     isMobileProject: false,
+        // },
         {
             id: "beauty_cosmetics",
             title: "Beauty Cosmetics", tagline: "E-commerce website for Beauty Cosmetics Manufacturing Ltd.",
@@ -104,7 +178,7 @@ export const projectsConfig: { projects: Project[] } = {
                 { name: "Tailwind CSS", icon: "tailwind" },
             ],
             description:
-                "Developing a website with e-commerce integrations for a cosmetic company. The site will display products based on categories and users will be able to purchase and pay right from the site.",
+                "Website for a cosmetic company that display products based on categories and available locations for purchase.",
             image: "/images/beauty_cosmetics.png",
             // backgroundColor: "linear-gradient(120deg, #2d2b26, #4d122f)",//"#F1F5FD",
             // backgroundColor: "#FFFFFF",

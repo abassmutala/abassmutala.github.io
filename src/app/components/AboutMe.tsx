@@ -10,11 +10,11 @@ function AboutMe() {
         <div className="flex flex-col md:flex-row items-start justify-between gap-y-6 md:gap-x-6 lg:gap-x-8 py-6 md:py-8 lg:py-12">
           <div className="h-auto w-screen md:w-1/2 lg:w-2/5 -mx-6 md:mx-0">
             <Image
-              src="/images/pixelcut-export.jpeg"
+              src="/images/portrait.png"
               alt="Me at the Tema Port in 2019"
               width="1024"
               height="768"
-              className="h-full object-center object-cover mix-blend-luminosity md:rounded-lg"
+              className="h-full object-center object-cover md:rounded-lg"
               loading="eager"
             />
           </div>

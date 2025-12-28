@@ -1,4 +1,5 @@
 import AboutMe from "./components/AboutMe";
+import CTA from "./components/cta";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
 import TechStack from "./components/TechStack";
@@ -10,6 +11,7 @@ export default function Home() {
       <AboutMe />
       {/* <TechStack /> */}
       <Projects />
+      <CTA />
     </main>
   );
 }
