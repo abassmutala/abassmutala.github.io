@@ -31,8 +31,7 @@ function AboutMe() {
                 <span className="text-primary">Flutter</span> for stellar mobile
                 experiences. While my expertise lies in frontend development,
                 I&apos;ve delved into&nbsp;
-                <span className="text-primary">Node.js</span> and&nbsp;
-                <span className="text-primary">Laravel</span> for backend
+                <span className="text-primary">Node.js</span> for backend
                 projects. My passion for&nbsp;
                 <span className="text-primary">clean</span>,&nbsp;
                 <span className="text-primary">responsive designs</span> drives
@@ -59,7 +58,7 @@ function AboutMe() {
                           "h-5 w-5",
                           tech.icon === "react"
                             ? "stroke-primary"
-                            : "fill-primary"
+                            : "fill-primary",
                         )}
                       />
                       <p className="">{tech.name}</p>
