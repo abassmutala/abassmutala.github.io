@@ -19,7 +19,7 @@ export const projectsConfig: { projects: Project[] } = {
                 { name: "Dart" },
             ],
             description: "Web and mobile platform that helps small businesses track inventory, sales, agents, and generate receipts in real time.",
-            image: "/images/a_sandal_more/landing_list.png",
+            image: "/images/shelfer/Shelfer_Dashboard.jpeg",
             // backgroundColor: "linear-gradient(120deg, #2d2b26, #4d122f)",//"#F1F5FD",
             // backgroundColor: "#FFFFFF",
             backgroundColor: "rgb(185 28 28)",
