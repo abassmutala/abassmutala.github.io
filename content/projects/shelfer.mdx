@@ -9,6 +9,8 @@ url:
 
 Shelfer is a web and mobile platform that enables small businesses to manage inventory, track sales, monitor agent activity, and generate receipts in real time from a single system.
 
+> Designed and built as a scalable, multi-tenant SaaS platform for real-world business operations.
+
 ### Problem
 
 Many small and medium-sized businesses in Ghana rely on manual record-keeping or fragmented tools for inventory and sales management. This leads to stock inaccuracies, poor sales visibility, and delayed reporting. Shelfer was built to centralise these operations into a reliable, easy-to-use platform accessible on both web and mobile.
@@ -29,8 +31,6 @@ I am the **sole engineer** behind Shelfer, responsible for the **entire product 
 
 ### Core Features
 
-Reusable UI component system to support rapid feature development
-
 - **Responsive web application** for **inventory management**, **sales tracking**, and **receipt generation**.
 - **Mobile application** for field agents to log sales and activity in real time.
 - **Role-based access control** for business owners and agents.
@@ -50,9 +50,10 @@ _Products page showing a business’s registered inventory._
 
 #### Backend
 
-- **Node.js** - Backend runtinme
+- **Node.js** - Backend runtime
 - **Express** - RESTful API design and routing
-- **Firebase** - Authentication, media storage, and real-time services
+- **Clerk** - Authentication, and real-time services
+- **AWS** - Media storage
 
 #### Mobile
 
@@ -70,15 +71,47 @@ _Products page showing a business’s registered inventory._
 ![App homepage page Screenshot](/images/shelfer/mobile_home.png)  
 _Agent mobile dashboard showing activity and sales access._
 
+### Architecture Overview
+
+Shelfer is designed as a multi-tenant system with a clear separation between client applications and backend services.
+Backend APIs are structured to enforce business rules and ensure data consistency across tenants, with the frontend acting as a thin client layer for interaction.
+
+- Frontend (Web): Next.js dashboard for business owners
+- Mobile (Flutter): Agent-facing app for field operations
+- Backend API: Node.js + Express handling business logic and data access
+- Database: PostgreSQL for structured relational data
+- Realtime Layer: Clerk used for authentication and real-time updates
+
+The system supports multiple businesses (tenants), each with isolated data for inventory, sales, and users.
+
 ### Key Technical Decisions
 
-- Designed a **multi-tenant architecture** to support multiple businesses, users, and agents within a single system
-- Implemented **shared UI patterns** across web and mobile to ensure consistency and reduce development overhead
-- Optimised database queries and frontend rendering to handle large inventory datasets without UI lag
-- Applied performance best practices validated with **Lighthouse**, ensuring fast load times even on low-end devices
+#### Multi-tenant Architecture
+
+Designed the system to support multiple businesses within a single deployment, ensuring data isolation per tenant while maintaining a unified codebase.
+
+#### PostgreSQL for Relational Data
+
+PostgreSQL was selected to model structured relationships between businesses, inventory, sales, and agents, enabling efficient querying and data consistency.
+
+#### Flutter for Agent Mobile App
+
+Selected Flutter to enable rapid cross-platform development while maintaining a consistent UI and performance across Android devices commonly used by field agents.
+
+#### Component-driven UI System
+
+Built a reusable UI component system to standardise design across web and mobile, reducing duplication and improving development speed.
 
 ![Generated receipt](/images/shelfer/sample_receipt.png)  
 _A generated receipt after a successful agent sale._
+
+### System Highlights
+
+- Handles _multi-entity relationships_ (businesses, agents, inventory, transactions)
+- Supports _real-time updates_ across distributed clients (web + mobile)
+- Implements _role-based access control_ for different user types
+- Designed for _scalability across multiple businesses_
+- Optimised for _low-bandwidth and low-performance devices_
 
 ### Challenges & Learnings
 
@@ -87,8 +120,15 @@ _A generated receipt after a successful agent sale._
 - Ensuring acceptable performance on mobile devices with limited hardware resources
 - Managing full-stack ownership across web, backend, and mobile simultaneously
 
-### Outcome / Current Status
+### Outcome / Status
 
 Shelfer is under active development, with both web and mobile applications nearing feature completeness. The platform is designed to scale across multiple businesses and provides real-time operational visibility for owners and field agents.
+
+### Future Improvements
+
+- Offline-first support for agents in low-connectivity areas
+- Advanced analytics and reporting dashboards
+- Payment integrations for transaction tracking
+- Role expansion for multi-level business management
 
 _Private demo available on request._

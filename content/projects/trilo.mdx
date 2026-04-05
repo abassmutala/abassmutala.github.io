@@ -1,49 +1,131 @@
 ---
-title: Trilo  
-description: Agent and Admin apps developed for MarkApp, used for data collection and management.  
-dates: "April - June 2024"  
-url: 
+title: Trilo
+description: Mobile data collection and administration system for large-scale field data acquisition.
+dates: "Apr 2024 – Jun 2024"
+url:
 ---
 
-### Overview  
-**Trilo** is a dual app project consisting of an agent app and an admin app, built to facilitate the collection and management of data for various stores across Ghana. Initially built on top of Glico Stores, it was later adopted by Beauty Cosmetics Manufacturing Limited for gathering information about cosmetic shops in the Greater Accra region. Agents use the app to register shops, while the admin app allows oversight of the registered data.
+### Overview
 
-### Technologies Used  
-#### Languages & Frameworks  
+**Trilo** is a dual-application system (Agent App + Admin Dashboard) designed for **large-scale field data collection and management**.
+
+It enables organisations to deploy field agents to register and map businesses, capturing structured data, images, and geolocation, while providing administrators with real-time visibility into collected data.
+
+The system has been used to register **1,500+ businesses** across Ghana and has been adapted for multiple operational use cases.
+
+### My Role
+
+I worked as a **Mobile Engineer**, responsible for building the **core agent and admin applications**, including:
+
+- Mobile application architecture and UI implementation
+- Integration with Firebase services for data storage
+- Google Maps and Places API integration
+- Data capture workflows for field agents
+- Admin interfaces for monitoring and managing collected data
+
+### System Functionality
+
+#### Agent Application
+
+- Structured forms for registering shops and businesses
+- Image capture and upload with preview and gesture support
+- Automatic GPS location capture for each entry
+- Address resolution using Google Places API
+- Local interaction flows optimised for field usage
+
+#### Admin Application
+
+- Centralised view of all registered entities
+- Map-based visualisation of shop locations
+- List-based management interface for reviewing submissions
+- Dynamic data structure support via Firebase collections
+
+### Technologies Used
+
+#### Languages & Frameworks
+
 - **Flutter** - For building the user interfaces and application logic for both apps.
 - **Firebase Firestore & Storage** - To store user and shop data, along with any images or additional media.
 - **Google Maps & Google Places APIs** - For mapping shop locations and converting GPS coordinates into human-readable addresses.
 
-### App Features  
-- **Image Preview with Gestures:** Agents can upload shop images and preview them with zoom and other gesture controls.
-- **Google Maps Integration:** Both apps incorporate Google Maps. Agents can capture the current shop location, while admins view registered shops on a map with markers.
-- **Current Location Detection:** The agent app retrieves and stores the GPS coordinates of the shop, converting them into addresses using the Google Places API.
-- **Admin View:** Admins can oversee all registered shops, displayed in both map and list views. Admins also have the ability to create new Firebase collections and add additional data fields.
+### Architecture Overview
 
-### Challenges & Learnings  
-One major challenge was adapting to recent changes in the Google Maps API, which required refreshing my knowledge and adjusting the implementation. Additionally, integrating Google APIs for location conversion was new to me, but rewarding after I did it.
+- **Mobile Clients:** Flutter applications for agents and administrators
+- **Backend Services:** Firebase Firestore for structured data storage
+- **Media Storage:** Firebase Storage for images and uploaded assets
+- **Location Services:** Google Maps & Places APIs for geolocation and address resolution
 
-### Outcome  
-The project successfully served Beauty Cosmetics Manufacturing Limited by registering over 1,500 cosmetic shops in the Greater Accra region. It's currently being reused by Access Bank Ghana for the **A Sandal More** initiative, onboarding vulcanizers to retrieve old tires. More types of shops are expected to be added in future phases.
+The system is designed to support **distributed data collection**, where multiple agents can submit data concurrently while maintaining centralised visibility for administrators.
 
-### Future Enhancements  
+### Key Technical Decisions
+
+#### Firebase for Rapid Data Collection
+
+Firebase was selected to enable real-time data synchronisation and reduce backend overhead, allowing fast iteration and deployment.
+
+#### Google Maps & Places Integration
+
+Used to capture accurate GPS coordinates and convert them into human-readable addresses, improving data usability and consistency.
+
+#### Dual-App Architecture
+
+Separated agent and admin workflows into distinct applications to simplify user experience and enforce role-specific functionality.
+
+#### Media Handling with Gesture Support
+
+Implemented image preview with gesture controls to improve usability when capturing and verifying field data.
+
+### System Highlights
+
+- Supports **large-scale, distributed data collection across regions**
+- Captures **structured data, images, and geolocation per entity**
+- Enables **real-time visibility of field activity for administrators**
+- Designed for **reuse across different organisations and use cases**
+
+### Challenges & Learnings
+
+- Handling **inconsistent network conditions** during field data submission
+- Adapting to changes in **Google Maps and Places API requirements**
+- Designing flexible data structures to support evolving data requirements
+- Ensuring usability for agents operating in real-world environments
+
+### Outcome / Impact
+
+- Successfully registered **1,500+ businesses** in the Greater Accra region
+- Adopted by multiple organisations, including **Beauty Cosmetics Manufacturing Limited**
+- Reused by **Access Bank Ghana** for the _A Sandal More_ initiative
+- Established a **reusable data collection system** for future deployments
+
+### Relationship to Other Work
+
+Data collected through Trilo is leveraged in **Shelfer**, where registered businesses serve as potential customers within the inventory and sales ecosystem.
+
+### Future Enhancements
+
+- Offline-first data capture for low-connectivity environments
+- Expanded data validation and deduplication mechanisms
+- iOS support for broader device coverage
+- Deployment to public app stores
+
+### Future Enhancements
+
 - **iOS Support:** The apps will be extended to support iOS devices for broader use.
 - **App Store Deployment:** I plan to publish both apps on the Google Play Store and Apple App Store to increase accessibility.
 
-### Screenshots  
-Below are screenshots showcasing the app:
+### Screenshots
 
 ![Agent App Screenshot](/images/trilo/form.png)  
-*The agent app's shop registration form.*
+_The agent app's shop registration form._
 
 ![Agent App Screenshot](/images/trilo/stores_list.png)  
-*The agent app showing the list of registered shops.*
+_The agent app showing the list of registered shops._
 
 ![Admin Map View](/images/trilo/admin_map_view.png)  
-*The admin app showing all registered shops on a map.*
+_The admin app showing all registered shops on a map._
 
 ![Image Preview Feature](/images/trilo/image_preview.png)  
-*Image preview with zoom gestures.*
+_Image preview with zoom gestures._
 
-### Conclusion  
+### Conclusion
+
 Building **Trilo** allowed me to deepen my expertise in integrating Google Maps and Firebase. It was exciting to see the app's utility expand beyond its original purpose, now helping multiple organizations in their data collection efforts.
